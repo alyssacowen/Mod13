@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="signUpPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_firebase_webview_auth.modelview.SignUpController">
+    <center>
+       
+        <VBox alignment="CENTER" prefHeight="303.0" prefWidth="600.0" spacing="10">
+          <children>
+               <Label text="Sign Up">
+               <font>
+                  <Font name="Century Schoolbook" size="64.0" />
+               </font>
+            </Label>
+               <TextField fx:id="newUsernameField" promptText="Username">
+               <font>
+                  <Font name="Courier New" size="18.0" />
+               </font>
+            </TextField>
+               <PasswordField fx:id="newPasswordField" promptText="Password">
+               <font>
+                  <Font name="Courier New" size="18.0" />
+               </font>
+            </PasswordField>
+               <Button onAction="#signUpAction">
+                   <text>Register</text>
+               <font>
+                  <Font name="Century Gothic" size="24.0" />
+               </font>
+               </Button>
+          </children>
+        </VBox>
+    </center>
+</BorderPane>
