@@ -20,6 +20,7 @@ public class LogInController {
         this.passwordField = passwordField;
     }
 
+
     @FXML
     private void signInAction(ActionEvent event) throws IOException {
         String userName = usernameField.getText();
