@@ -26,4 +26,5 @@ public class LogInController {
         sharedData.setUserName(userName);
         String password = passwordField.getText();
     }
+
 }
